@@ -7,7 +7,7 @@ import java.util.Map;
 public class Hmaps {
 
     public static void main(String[] args) {
-
+        System.out.println("kunal");
     }
 
     }
