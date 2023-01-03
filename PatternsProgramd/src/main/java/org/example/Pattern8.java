@@ -7,11 +7,11 @@ public class Pattern8 {
                 System.out.print(" ");
             }
             for (int k=1;k<=i;k++){
-                System.out.print("*");
+                System.out.print("*"+" ");
             }
-            for (int l=5;l<=2;l++){
-                System.out.print("*");
-            }
+//            for (int l=5;l<=2;l++){
+//                System.out.print("*");
+//            }
             System.out.println();
         }
     }

@@ -7,11 +7,11 @@ public class Pattern9 {
                 System.out.print(" ");
             }
             for (int k=4;k>=i;k--){
-                System.out.print("*");
+                System.out.print("*"+" ");
             }
-            for (int l=5;l>=i-3;l--){
-                System.out.print("*");
-            }
+    //            for (int l=5;l>=5-1-i;l--){
+    //                System.out.print("*");
+    //            }
             System.out.println();
         }
     }
