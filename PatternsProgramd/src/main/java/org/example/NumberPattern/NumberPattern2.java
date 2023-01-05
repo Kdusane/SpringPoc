@@ -5,9 +5,13 @@ public class NumberPattern2 {
         int rows = 4;
         int count = 1;
         for (int i=1;i<=rows;i++){
-            for (int j=1;j<=i;j++){
-                System.out.print(count++ +" ");
+            for (int j=rows-1;j>=i;j--){
+                System.out.print(" ");
 
+
+            }
+            for (int k =1;k<=i;k++){
+                System.out.print(count+++" ");
             }
             System.out.println();
         }
